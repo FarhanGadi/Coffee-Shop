@@ -1,8 +1,6 @@
 /* google font */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
     --font-heading: crimson;
@@ -13,7 +11,7 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -75,7 +73,7 @@ nav .links a {
 }
 
 nav .links a:after {
-    content: '';
+    content: "";
     width: 0%;
     height: 2px;
     background: var(--bg);
@@ -125,15 +123,13 @@ nav #close {
     border-radius: 7px;
     background: none;
     transition: all linear 0.5s;
-
 }
 
 .btn:hover {
     background: var(--bg);
-    color: var(--white);
+    color: var(--white) !important;
     transform: translate(0px, -3px);
 }
-
 
 .nav-change {
     background: rgba(0, 0, 0, 0.9);
@@ -144,11 +140,10 @@ nav #close {
     justify-content: space-between;
 }
 
-
 .about .container .image {
     flex-basis: 50%;
     background: url(./assets/coffe1.jpg);
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 16rem 0;
     border-radius: 10px;
@@ -182,7 +177,6 @@ nav #close {
     color: var(--black);
     line-height: 1.5;
 }
-
 
 .heading {
     font-size: 5rem;
@@ -275,7 +269,6 @@ nav #close {
     border-radius: 5px;
 }
 
-
 .service .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -366,7 +359,6 @@ nav #close {
     font-size: 2rem;
     color: var(--black);
     padding: 1.2rem 0;
-
 }
 
 .team .container .team-box .team-content p {
@@ -393,16 +385,11 @@ nav #close {
     transform: translateY(-1rem);
 }
 
-
-
-
-
 .contact .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
     padding: 2.5rem 0;
-
 }
 
 .contact .container .contact-box {
@@ -432,12 +419,10 @@ nav #close {
 
 .contact .container .contact-box div h2 {
     font-size: 1.8rem;
-
 }
 
 .contact .container .contact-box div h2 span {
     font-weight: 300;
-
 }
 
 .contact .container .contact-box div p {
@@ -456,7 +441,6 @@ nav #close {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20rem;
-    
 }
 
 .footer .container {
@@ -511,11 +495,9 @@ nav #close {
     background: var(--bg);
 }
 
-
 @media only screen and (max-width: 991px) {
     html {
         font-size: 55%;
-
     }
 
     nav {
@@ -527,10 +509,7 @@ nav #close {
     }
 }
 
-
 @media only screen and (max-width: 768px) {
-
-
     nav #menu-btn {
         display: inline-block;
     }
@@ -564,9 +543,9 @@ nav #close {
         text-align: center;
     }
 }
-.Farhan_khan{
+.Farhan_khan {
     color: var(--white);
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        font-family: cursive;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: cursive;
 }
